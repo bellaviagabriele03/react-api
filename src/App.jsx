@@ -18,7 +18,17 @@ function App() {
   
   return (
     <>
-      
+      <div className="container p-3">
+        <h1 className='text-center'>THe best actors:</h1>
+        <div className="row">
+          <div className="col-4">colonna</div>
+          <div className="col-4">colonna</div>
+          <div className="col-4">colonna</div>
+          <div className="col-4">colonna</div>
+          <div className="col-4">colonna</div>
+          <div className="col-4">colonna</div>
+        </div>
+      </div>
     </>
   )
 }
